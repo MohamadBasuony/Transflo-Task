@@ -6,3 +6,15 @@
 //
 
 import Foundation
+protocol DashBoardConfigurator {
+    func configure(dashBoardVC: DashBoardVC)
+}
+
+class DashBoardConfiguratorImplementation: DashBoardConfigurator {
+    func configure(dashBoardVC: DashBoardVC) {
+        let gateway = ApiWeatherGateway()
+        let router = DashBoardRouterImplementation(dashBoardVC: dashBoardVC)
+        let presenter = DashBoardPresenterImplementation(delegate: dashBoardVC, gateway: gateway, router: router)
+        dashBoardVC.presenter = presenter
+    }
+}

@@ -17,6 +17,100 @@
 		2C5BA78D29EA097900B5B331 /* Transflo_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA78C29EA097900B5B331 /* Transflo_TaskTests.swift */; };
 		2C5BA79729EA097900B5B331 /* Transflo_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA79629EA097900B5B331 /* Transflo_TaskUITests.swift */; };
 		2C5BA79929EA097900B5B331 /* Transflo_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA79829EA097900B5B331 /* Transflo_TaskUITestsLaunchTests.swift */; };
+		2C5BA7A829EA118E00B5B331 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA7A729EA118E00B5B331 /* DashBoardVC.swift */; };
+		2C5BA7AA29EA119C00B5B331 /* DashBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA7A929EA119C00B5B331 /* DashBoardPresenter.swift */; };
+		2C5BA7AC29EA11AC00B5B331 /* DashBoardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA7AB29EA11AC00B5B331 /* DashBoardConfig.swift */; };
+		2C5BA7AE29EA11B600B5B331 /* DashBoardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BA7AD29EA11B600B5B331 /* DashBoardRouter.swift */; };
+		2C5CFCE929EC2DFC00D0CDC9 /* CurrentWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCE829EC2DFC00D0CDC9 /* CurrentWeatherVC.swift */; };
+		2C5CFCEB29EC2E0A00D0CDC9 /* CurrentWeatherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCEA29EC2E0A00D0CDC9 /* CurrentWeatherConfig.swift */; };
+		2C5CFCED29EC2E2200D0CDC9 /* CurrentWeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCEC29EC2E2200D0CDC9 /* CurrentWeatherPresenter.swift */; };
+		2C5CFCEF29EC2E2D00D0CDC9 /* CurrentWeatherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCEE29EC2E2D00D0CDC9 /* CurrentWeatherRouter.swift */; };
+		2C5CFCF129EC2E3900D0CDC9 /* ForecastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCF029EC2E3900D0CDC9 /* ForecastVC.swift */; };
+		2C5CFCF329EC2E7A00D0CDC9 /* ForecastConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCF229EC2E7A00D0CDC9 /* ForecastConfig.swift */; };
+		2C5CFCF529EC2E8200D0CDC9 /* ForecastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCF429EC2E8200D0CDC9 /* ForecastPresenter.swift */; };
+		2C5CFCF729EC2E8A00D0CDC9 /* ForecastRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFCF629EC2E8A00D0CDC9 /* ForecastRouter.swift */; };
+		2C5CFCFC29EC37CE00D0CDC9 /* CurrentWeatherVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CFCFB29EC37CE00D0CDC9 /* CurrentWeatherVC.storyboard */; };
+		2C5CFD5E29EC405600D0CDC9 /* WeatherEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFD5D29EC405600D0CDC9 /* WeatherEndPoint.swift */; };
+		2C62EC5C29EDD301006B5ACC /* SelectCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EC5B29EDD301006B5ACC /* SelectCityVC.swift */; };
+		2C62EC6229EDD36D006B5ACC /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EC6029EDD36D006B5ACC /* CityCell.swift */; };
+		2C62EC6329EDD36D006B5ACC /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C62EC6129EDD36D006B5ACC /* CityCell.xib */; };
+		2C6413DE29F3570600708636 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6413DC29F3570600708636 /* ForecastCell.swift */; };
+		2C6413DF29F3570600708636 /* ForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C6413DD29F3570600708636 /* ForecastCell.xib */; };
+		2C6413E229F7248C00708636 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6413E129F7248C00708636 /* HistoryVC.swift */; };
+		2C6413E429F726C900708636 /* HistoryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6413E329F726C900708636 /* HistoryConfig.swift */; };
+		2C6413E629F726D000708636 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6413E529F726D000708636 /* HistoryPresenter.swift */; };
+		2C6413E829F726D600708636 /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6413E729F726D600708636 /* HistoryRouter.swift */; };
+		2C6413EA29F72ADD00708636 /* HistoryVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6413E929F72ADD00708636 /* HistoryVC.storyboard */; };
+		2C8D711E29EF9D2B00F7CE5B /* CLLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D711D29EF9D2B00F7CE5B /* CLLocationService.swift */; };
+		2C8D712029EFB62300F7CE5B /* ForecastVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D711F29EFB62300F7CE5B /* ForecastVC.storyboard */; };
+		2C90DD042A12D85C001B8285 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD032A12D85C001B8285 /* MapView.swift */; };
+		2C90DD062A12DCB2001B8285 /* MapViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD052A12DCB2001B8285 /* MapViewConfig.swift */; };
+		2C90DD082A12DCC1001B8285 /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD072A12DCC1001B8285 /* MapViewPresenter.swift */; };
+		2C90DD0A2A12DCD0001B8285 /* MapViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD092A12DCD0001B8285 /* MapViewRouter.swift */; };
+		2C90DD0C2A12E7C8001B8285 /* SelectCityConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD0B2A12E7C8001B8285 /* SelectCityConfig.swift */; };
+		2C90DD0E2A12E7D4001B8285 /* SelectCityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD0D2A12E7D4001B8285 /* SelectCityPresenter.swift */; };
+		2C90DD102A12E7DB001B8285 /* SelectCityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90DD0F2A12E7DB001B8285 /* SelectCityRouter.swift */; };
+		2CE4B08029ECBD8F00297701 /* DashboardVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B07F29ECBD8F00297701 /* DashboardVC.storyboard */; };
+		2CE4B08329ECC12500297701 /* ApiWeatherGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B08229ECC12500297701 /* ApiWeatherGateway.swift */; };
+		2CE4B0CE29ECC18900297701 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B08529ECC18900297701 /* DataController.swift */; };
+		2CE4B0CF29ECC18900297701 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B08729ECC18900297701 /* Constants.swift */; };
+		2CE4B0D429ECC18900297701 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B09029ECC18900297701 /* Strings.swift */; };
+		2CE4B0D529ECC18900297701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09129ECC18900297701 /* InfoPlist.strings */; };
+		2CE4B0D829ECC18900297701 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09829ECC18900297701 /* Development.xcconfig */; };
+		2CE4B0D929ECC18900297701 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09929ECC18900297701 /* Staging.xcconfig */; };
+		2CE4B0DA29ECC18900297701 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09A29ECC18900297701 /* Production.xcconfig */; };
+		2CE4B0DB29ECC18900297701 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B09B29ECC18900297701 /* Configuration.swift */; };
+		2CE4B0DC29ECC18900297701 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09D29ECC18900297701 /* Quicksand-Bold.ttf */; };
+		2CE4B0DD29ECC18900297701 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09E29ECC18900297701 /* SFProDisplay-Ultralight.ttf */; };
+		2CE4B0DE29ECC18900297701 /* SFProDisplay-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B09F29ECC18900297701 /* SFProDisplay-SemiboldItalic.ttf */; };
+		2CE4B0DF29ECC18900297701 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A029ECC18900297701 /* SFProDisplay-Medium.ttf */; };
+		2CE4B0E029ECC18900297701 /* SFProDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A129ECC18900297701 /* SFProDisplay-Black.ttf */; };
+		2CE4B0E129ECC18900297701 /* SFProDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A229ECC18900297701 /* SFProDisplay-Light.ttf */; };
+		2CE4B0E229ECC18900297701 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A329ECC18900297701 /* SFProDisplay-Regular.ttf */; };
+		2CE4B0E329ECC18900297701 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A429ECC18900297701 /* Quicksand-Regular.ttf */; };
+		2CE4B0E429ECC18900297701 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A529ECC18900297701 /* Fonts.swift */; };
+		2CE4B0E529ECC18900297701 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A629ECC18900297701 /* Quicksand-Light.ttf */; };
+		2CE4B0E629ECC18900297701 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A729ECC18900297701 /* SFProDisplay-Bold.ttf */; };
+		2CE4B0E729ECC18900297701 /* SF-Pro-Display-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A829ECC18900297701 /* SF-Pro-Display-HeavyItalic.ttf */; };
+		2CE4B0E829ECC18900297701 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0A929ECC18900297701 /* SFProDisplay-Semibold.ttf */; };
+		2CE4B0E929ECC18900297701 /* SFProDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0AA29ECC18900297701 /* SFProDisplay-Heavy.ttf */; };
+		2CE4B0EA29ECC18900297701 /* SFProDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0AB29ECC18900297701 /* SFProDisplay-Thin.ttf */; };
+		2CE4B0EB29ECC18900297701 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0AD29ECC18900297701 /* Assets.swift */; };
+		2CE4B0EC29ECC18900297701 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0AE29ECC18900297701 /* Colors.xcassets */; };
+		2CE4B0ED29ECC18900297701 /* Notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0AF29ECC18900297701 /* Notification.mp3 */; };
+		2CE4B0EF29ECC18900297701 /* Ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B129ECC18900297701 /* Ding.mp3 */; };
+		2CE4B0F029ECC18900297701 /* ImagePickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B329ECC18900297701 /* ImagePickerProtocol.swift */; };
+		2CE4B0F129ECC18900297701 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B529ECC18900297701 /* UserDefaultManager.swift */; };
+		2CE4B0F229ECC18900297701 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B629ECC18900297701 /* RoundedView.swift */; };
+		2CE4B0F329ECC18900297701 /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B729ECC18900297701 /* BaseProtocols.swift */; };
+		2CE4B0F429ECC18900297701 /* Moya+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0B929ECC18900297701 /* Moya+Extension.swift */; };
+		2CE4B0F529ECC18900297701 /* UiColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BA29ECC18900297701 /* UiColor+Extension.swift */; };
+		2CE4B0F629ECC18900297701 /* IBInspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BB29ECC18900297701 /* IBInspectables.swift */; };
+		2CE4B0F729ECC18900297701 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BC29ECC18900297701 /* String + Extensions.swift */; };
+		2CE4B0F829ECC18900297701 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BD29ECC18900297701 /* UIViewController+Extension.swift */; };
+		2CE4B0F929ECC18900297701 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BE29ECC18900297701 /* UICollectionView + Extension.swift */; };
+		2CE4B0FA29ECC18900297701 /* UIScene + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0BF29ECC18900297701 /* UIScene + Extensions.swift */; };
+		2CE4B0FB29ECC18900297701 /* UIDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C029ECC18900297701 /* UIDate+Extension.swift */; };
+		2CE4B0FC29ECC18900297701 /* ActInd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C129ECC18900297701 /* ActInd.swift */; };
+		2CE4B0FD29ECC18900297701 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C229ECC18900297701 /* UIViewExtensions.swift */; };
+		2CE4B0FE29ECC18900297701 /* UIImageView+Extnsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C329ECC18900297701 /* UIImageView+Extnsion.swift */; };
+		2CE4B0FF29ECC18900297701 /* Fonts+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C429ECC18900297701 /* Fonts+Extension.swift */; };
+		2CE4B10029ECC18900297701 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C529ECC18900297701 /* UITableView + Extension.swift */; };
+		2CE4B10129ECC18900297701 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C629ECC18900297701 /* UIApplication.swift */; };
+		2CE4B10229ECC18900297701 /* Double+Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C729ECC18900297701 /* Double+Extensions .swift */; };
+		2CE4B10329ECC18900297701 /* BadgedButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0C929ECC18900297701 /* BadgedButtonItem.swift */; };
+		2CE4B10429ECC18900297701 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B0CB29ECC18900297701 /* AudioPlayer.swift */; };
+		2CE4B10A29ECD6F600297701 /* GetCurrentWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B10929ECD6F600297701 /* GetCurrentWeatherModel.swift */; };
+		2CE4B10C29ECDEED00297701 /* GetForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B10B29ECDEED00297701 /* GetForecastModel.swift */; };
+		2CE4B10E29ECE97200297701 /* GetQueryResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B10D29ECE97200297701 /* GetQueryResultsModel.swift */; };
+		2CE4B11329ECF0AD00297701 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B11229ECF0AD00297701 /* SearchVC.swift */; };
+		2CE4B11529ECF0C500297701 /* SearchConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B11429ECF0C500297701 /* SearchConfig.swift */; };
+		2CE4B11729ECF0CB00297701 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B11629ECF0CB00297701 /* SearchPresenter.swift */; };
+		2CE4B11929ECF0D100297701 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4B11829ECF0D100297701 /* SearchRouter.swift */; };
+		2CE4B11B29ECF0DF00297701 /* SearchVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4B11A29ECF0DF00297701 /* SearchVC.storyboard */; };
+		45D629B142A547F70C8725AF /* Pods_Transflo_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057E92142F6D8319D55A4852 /* Pods_Transflo_Task.framework */; };
+		598718D5C24329D9E8DD4095 /* Pods_Transflo_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6743472E9DBD5D7F43908E6 /* Pods_Transflo_TaskTests.framework */; };
+		6528D0052467E4E4E19337E4 /* Pods_Transflo_Task_Transflo_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CB7E05B9DD56F08E8222D2 /* Pods_Transflo_Task_Transflo_TaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +131,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057E92142F6D8319D55A4852 /* Pods_Transflo_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transflo_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5BA76F29EA097600B5B331 /* Transflo-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transflo-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5BA77229EA097600B5B331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C5BA77429EA097600B5B331 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +146,106 @@
 		2C5BA79229EA097900B5B331 /* Transflo-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transflo-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5BA79629EA097900B5B331 /* Transflo_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transflo_TaskUITests.swift; sourceTree = "<group>"; };
 		2C5BA79829EA097900B5B331 /* Transflo_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transflo_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C5BA7A729EA118E00B5B331 /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		2C5BA7A929EA119C00B5B331 /* DashBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardPresenter.swift; sourceTree = "<group>"; };
+		2C5BA7AB29EA11AC00B5B331 /* DashBoardConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardConfig.swift; sourceTree = "<group>"; };
+		2C5BA7AD29EA11B600B5B331 /* DashBoardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardRouter.swift; sourceTree = "<group>"; };
+		2C5CFCE829EC2DFC00D0CDC9 /* CurrentWeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherVC.swift; sourceTree = "<group>"; };
+		2C5CFCEA29EC2E0A00D0CDC9 /* CurrentWeatherConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherConfig.swift; sourceTree = "<group>"; };
+		2C5CFCEC29EC2E2200D0CDC9 /* CurrentWeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherPresenter.swift; sourceTree = "<group>"; };
+		2C5CFCEE29EC2E2D00D0CDC9 /* CurrentWeatherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherRouter.swift; sourceTree = "<group>"; };
+		2C5CFCF029EC2E3900D0CDC9 /* ForecastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastVC.swift; sourceTree = "<group>"; };
+		2C5CFCF229EC2E7A00D0CDC9 /* ForecastConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastConfig.swift; sourceTree = "<group>"; };
+		2C5CFCF429EC2E8200D0CDC9 /* ForecastPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastPresenter.swift; sourceTree = "<group>"; };
+		2C5CFCF629EC2E8A00D0CDC9 /* ForecastRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastRouter.swift; sourceTree = "<group>"; };
+		2C5CFCFB29EC37CE00D0CDC9 /* CurrentWeatherVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrentWeatherVC.storyboard; sourceTree = "<group>"; };
+		2C5CFD5D29EC405600D0CDC9 /* WeatherEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEndPoint.swift; sourceTree = "<group>"; };
+		2C62EC5B29EDD301006B5ACC /* SelectCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityVC.swift; sourceTree = "<group>"; };
+		2C62EC6029EDD36D006B5ACC /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		2C62EC6129EDD36D006B5ACC /* CityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityCell.xib; sourceTree = "<group>"; };
+		2C6413DC29F3570600708636 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		2C6413DD29F3570600708636 /* ForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCell.xib; sourceTree = "<group>"; };
+		2C6413E129F7248C00708636 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		2C6413E329F726C900708636 /* HistoryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryConfig.swift; sourceTree = "<group>"; };
+		2C6413E529F726D000708636 /* HistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
+		2C6413E729F726D600708636 /* HistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
+		2C6413E929F72ADD00708636 /* HistoryVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistoryVC.storyboard; sourceTree = "<group>"; };
+		2C8D711D29EF9D2B00F7CE5B /* CLLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationService.swift; sourceTree = "<group>"; };
+		2C8D711F29EFB62300F7CE5B /* ForecastVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForecastVC.storyboard; sourceTree = "<group>"; };
+		2C90DD032A12D85C001B8285 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2C90DD052A12DCB2001B8285 /* MapViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewConfig.swift; sourceTree = "<group>"; };
+		2C90DD072A12DCC1001B8285 /* MapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenter.swift; sourceTree = "<group>"; };
+		2C90DD092A12DCD0001B8285 /* MapViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRouter.swift; sourceTree = "<group>"; };
+		2C90DD0B2A12E7C8001B8285 /* SelectCityConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityConfig.swift; sourceTree = "<group>"; };
+		2C90DD0D2A12E7D4001B8285 /* SelectCityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityPresenter.swift; sourceTree = "<group>"; };
+		2C90DD0F2A12E7DB001B8285 /* SelectCityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityRouter.swift; sourceTree = "<group>"; };
+		2CE4B07F29ECBD8F00297701 /* DashboardVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashboardVC.storyboard; sourceTree = "<group>"; };
+		2CE4B08229ECC12500297701 /* ApiWeatherGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWeatherGateway.swift; sourceTree = "<group>"; };
+		2CE4B08529ECC18900297701 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2CE4B08729ECC18900297701 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CE4B09029ECC18900297701 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		2CE4B09229ECC18900297701 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CE4B09529ECC18900297701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CE4B09829ECC18900297701 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		2CE4B09929ECC18900297701 /* Staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		2CE4B09A29ECC18900297701 /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		2CE4B09B29ECC18900297701 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		2CE4B09D29ECC18900297701 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		2CE4B09E29ECC18900297701 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		2CE4B09F29ECC18900297701 /* SFProDisplay-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		2CE4B0A029ECC18900297701 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		2CE4B0A129ECC18900297701 /* SFProDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.ttf"; sourceTree = "<group>"; };
+		2CE4B0A229ECC18900297701 /* SFProDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.ttf"; sourceTree = "<group>"; };
+		2CE4B0A329ECC18900297701 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		2CE4B0A429ECC18900297701 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		2CE4B0A529ECC18900297701 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		2CE4B0A629ECC18900297701 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		2CE4B0A729ECC18900297701 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		2CE4B0A829ECC18900297701 /* SF-Pro-Display-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		2CE4B0A929ECC18900297701 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		2CE4B0AA29ECC18900297701 /* SFProDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		2CE4B0AB29ECC18900297701 /* SFProDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		2CE4B0AD29ECC18900297701 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		2CE4B0AE29ECC18900297701 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2CE4B0AF29ECC18900297701 /* Notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Notification.mp3; sourceTree = "<group>"; };
+		2CE4B0B129ECC18900297701 /* Ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ding.mp3; sourceTree = "<group>"; };
+		2CE4B0B329ECC18900297701 /* ImagePickerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerProtocol.swift; sourceTree = "<group>"; };
+		2CE4B0B529ECC18900297701 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		2CE4B0B629ECC18900297701 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		2CE4B0B729ECC18900297701 /* BaseProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
+		2CE4B0B929ECC18900297701 /* Moya+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moya+Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0BA29ECC18900297701 /* UiColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiColor+Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0BB29ECC18900297701 /* IBInspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBInspectables.swift; sourceTree = "<group>"; };
+		2CE4B0BC29ECC18900297701 /* String + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		2CE4B0BD29ECC18900297701 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0BE29ECC18900297701 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0BF29ECC18900297701 /* UIScene + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScene + Extensions.swift"; sourceTree = "<group>"; };
+		2CE4B0C029ECC18900297701 /* UIDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDate+Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0C129ECC18900297701 /* ActInd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActInd.swift; sourceTree = "<group>"; };
+		2CE4B0C229ECC18900297701 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		2CE4B0C329ECC18900297701 /* UIImageView+Extnsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extnsion.swift"; sourceTree = "<group>"; };
+		2CE4B0C429ECC18900297701 /* Fonts+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0C529ECC18900297701 /* UITableView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		2CE4B0C629ECC18900297701 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		2CE4B0C729ECC18900297701 /* Double+Extensions .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions .swift"; sourceTree = "<group>"; };
+		2CE4B0C929ECC18900297701 /* BadgedButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgedButtonItem.swift; sourceTree = "<group>"; };
+		2CE4B0CB29ECC18900297701 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		2CE4B10929ECD6F600297701 /* GetCurrentWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentWeatherModel.swift; sourceTree = "<group>"; };
+		2CE4B10B29ECDEED00297701 /* GetForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetForecastModel.swift; sourceTree = "<group>"; };
+		2CE4B10D29ECE97200297701 /* GetQueryResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQueryResultsModel.swift; sourceTree = "<group>"; };
+		2CE4B11229ECF0AD00297701 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		2CE4B11429ECF0C500297701 /* SearchConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfig.swift; sourceTree = "<group>"; };
+		2CE4B11629ECF0CB00297701 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		2CE4B11829ECF0D100297701 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		2CE4B11A29ECF0DF00297701 /* SearchVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchVC.storyboard; sourceTree = "<group>"; };
+		429777ABAAC7DD95ADB32971 /* Pods-Transflo-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Transflo-TaskTests/Pods-Transflo-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D02C9E9C1E008F5B25B7290 /* Pods-Transflo-Task-Transflo-TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-Task-Transflo-TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Transflo-Task-Transflo-TaskUITests/Pods-Transflo-Task-Transflo-TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		790E91F3F72A5F32D074B926 /* Pods-Transflo-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Transflo-TaskTests/Pods-Transflo-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B69D681B8FF077DB6FF0DEC /* Pods-Transflo-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-Task.debug.xcconfig"; path = "Target Support Files/Pods-Transflo-Task/Pods-Transflo-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		A6743472E9DBD5D7F43908E6 /* Pods_Transflo_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transflo_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CB7E05B9DD56F08E8222D2 /* Pods_Transflo_Task_Transflo_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transflo_Task_Transflo_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CD6433CB2CB47DCFF7F66 /* Pods-Transflo-Task-Transflo-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-Task-Transflo-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Transflo-Task-Transflo-TaskUITests/Pods-Transflo-Task-Transflo-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F244BA76CEC66D727FC45049 /* Pods-Transflo-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transflo-Task.release.xcconfig"; path = "Target Support Files/Pods-Transflo-Task/Pods-Transflo-Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D629B142A547F70C8725AF /* Pods_Transflo_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598718D5C24329D9E8DD4095 /* Pods_Transflo_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +269,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6528D0052467E4E4E19337E4 /* Pods_Transflo_Task_Transflo_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A2BDB65D488669ACF14E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B69D681B8FF077DB6FF0DEC /* Pods-Transflo-Task.debug.xcconfig */,
+				F244BA76CEC66D727FC45049 /* Pods-Transflo-Task.release.xcconfig */,
+				5D02C9E9C1E008F5B25B7290 /* Pods-Transflo-Task-Transflo-TaskUITests.debug.xcconfig */,
+				D27CD6433CB2CB47DCFF7F66 /* Pods-Transflo-Task-Transflo-TaskUITests.release.xcconfig */,
+				429777ABAAC7DD95ADB32971 /* Pods-Transflo-TaskTests.debug.xcconfig */,
+				790E91F3F72A5F32D074B926 /* Pods-Transflo-TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2C5BA76629EA097600B5B331 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +296,8 @@
 				2C5BA78B29EA097900B5B331 /* Transflo-TaskTests */,
 				2C5BA79529EA097900B5B331 /* Transflo-TaskUITests */,
 				2C5BA77029EA097600B5B331 /* Products */,
+				19A2BDB65D488669ACF14E24 /* Pods */,
+				A3DAD7C9FE4FE6060A18EBEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +314,20 @@
 		2C5BA77129EA097600B5B331 /* Transflo-Task */ = {
 			isa = PBXGroup;
 			children = (
-				2C5BA77229EA097600B5B331 /* AppDelegate.swift */,
-				2C5BA77429EA097600B5B331 /* SceneDelegate.swift */,
+				2C5BA7A629EA10A800B5B331 /* Delegates */,
+				2C5BA7A529EA108400B5B331 /* DashboardVC */,
+				2C5CFCE729EC2D8800D0CDC9 /* CurrentWeatherVC */,
+				2C5CFCE629EC2D7300D0CDC9 /* ForecastVC */,
+				2CE4B10F29ECF08900297701 /* SearchVC */,
+				2C6413E029F7247100708636 /* HistoryVC */,
+				2CE4B10829ECD6E800297701 /* Models */,
+				2CE4B08429ECC18900297701 /* Support */,
+				2CE4B08129ECC10A00297701 /* Gateway */,
+				2C5CFD5C29EC403E00D0CDC9 /* EndPoint */,
 				2C5BA77629EA097600B5B331 /* ViewController.swift */,
 				2C5BA77829EA097600B5B331 /* Main.storyboard */,
-				2C5BA77E29EA097900B5B331 /* Assets.xcassets */,
 				2C5BA78029EA097900B5B331 /* LaunchScreen.storyboard */,
 				2C5BA78329EA097900B5B331 /* Info.plist */,
-				2C5BA77B29EA097600B5B331 /* Transflo_Task.xcdatamodeld */,
 			);
 			path = "Transflo-Task";
 			sourceTree = "<group>";
@@ -130,6 +349,309 @@
 			path = "Transflo-TaskUITests";
 			sourceTree = "<group>";
 		};
+		2C5BA7A529EA108400B5B331 /* DashboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B07F29ECBD8F00297701 /* DashboardVC.storyboard */,
+				2C5BA7A729EA118E00B5B331 /* DashBoardVC.swift */,
+				2C5BA7AB29EA11AC00B5B331 /* DashBoardConfig.swift */,
+				2C5BA7A929EA119C00B5B331 /* DashBoardPresenter.swift */,
+				2C5BA7AD29EA11B600B5B331 /* DashBoardRouter.swift */,
+			);
+			path = DashboardVC;
+			sourceTree = "<group>";
+		};
+		2C5BA7A629EA10A800B5B331 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BA77229EA097600B5B331 /* AppDelegate.swift */,
+				2C5BA77429EA097600B5B331 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2C5CFCE629EC2D7300D0CDC9 /* ForecastVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D712129EFC33800F7CE5B /* Cell */,
+				2C8D711F29EFB62300F7CE5B /* ForecastVC.storyboard */,
+				2C5CFCF029EC2E3900D0CDC9 /* ForecastVC.swift */,
+				2C5CFCF229EC2E7A00D0CDC9 /* ForecastConfig.swift */,
+				2C5CFCF429EC2E8200D0CDC9 /* ForecastPresenter.swift */,
+				2C5CFCF629EC2E8A00D0CDC9 /* ForecastRouter.swift */,
+			);
+			path = ForecastVC;
+			sourceTree = "<group>";
+		};
+		2C5CFCE729EC2D8800D0CDC9 /* CurrentWeatherVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C5CFCFB29EC37CE00D0CDC9 /* CurrentWeatherVC.storyboard */,
+				2C5CFCE829EC2DFC00D0CDC9 /* CurrentWeatherVC.swift */,
+				2C5CFCEA29EC2E0A00D0CDC9 /* CurrentWeatherConfig.swift */,
+				2C5CFCEC29EC2E2200D0CDC9 /* CurrentWeatherPresenter.swift */,
+				2C5CFCEE29EC2E2D00D0CDC9 /* CurrentWeatherRouter.swift */,
+			);
+			path = CurrentWeatherVC;
+			sourceTree = "<group>";
+		};
+		2C5CFD5C29EC403E00D0CDC9 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				2C5CFD5D29EC405600D0CDC9 /* WeatherEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		2C62EC5A29EDD2E7006B5ACC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EC5D29EDD34E006B5ACC /* Cell */,
+				2C62EC5B29EDD301006B5ACC /* SelectCityVC.swift */,
+				2C90DD0B2A12E7C8001B8285 /* SelectCityConfig.swift */,
+				2C90DD0D2A12E7D4001B8285 /* SelectCityPresenter.swift */,
+				2C90DD0F2A12E7DB001B8285 /* SelectCityRouter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C62EC5D29EDD34E006B5ACC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EC6029EDD36D006B5ACC /* CityCell.swift */,
+				2C62EC6129EDD36D006B5ACC /* CityCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2C6413E029F7247100708636 /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C6413E929F72ADD00708636 /* HistoryVC.storyboard */,
+				2C6413E129F7248C00708636 /* HistoryVC.swift */,
+				2C6413E329F726C900708636 /* HistoryConfig.swift */,
+				2C6413E529F726D000708636 /* HistoryPresenter.swift */,
+				2C6413E729F726D600708636 /* HistoryRouter.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		2C6413EB29F7321A00708636 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B08529ECC18900297701 /* DataController.swift */,
+				2C5BA77B29EA097600B5B331 /* Transflo_Task.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2C8D712129EFC33800F7CE5B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C6413DC29F3570600708636 /* ForecastCell.swift */,
+				2C6413DD29F3570600708636 /* ForecastCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2C90DD022A12D846001B8285 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				2C90DD032A12D85C001B8285 /* MapView.swift */,
+				2C90DD052A12DCB2001B8285 /* MapViewConfig.swift */,
+				2C90DD072A12DCC1001B8285 /* MapViewPresenter.swift */,
+				2C90DD092A12DCD0001B8285 /* MapViewRouter.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		2CE4B08129ECC10A00297701 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B08229ECC12500297701 /* ApiWeatherGateway.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		2CE4B08429ECC18900297701 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2C6413EB29F7321A00708636 /* CoreData */,
+				2CE4B08629ECC18900297701 /* Constants */,
+				2CE4B08C29ECC18900297701 /* Resources */,
+				2CE4B0B429ECC18900297701 /* Managers */,
+				2CE4B0B629ECC18900297701 /* RoundedView.swift */,
+				2CE4B0B729ECC18900297701 /* BaseProtocols.swift */,
+				2CE4B0B829ECC18900297701 /* Extensions */,
+				2CE4B0C829ECC18900297701 /* CustomViews */,
+				2CE4B0CA29ECC18900297701 /* Helper */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2CE4B08629ECC18900297701 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B08729ECC18900297701 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2CE4B08C29ECC18900297701 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B08F29ECC18900297701 /* Localize */,
+				2CE4B09729ECC18900297701 /* Configs */,
+				2CE4B09C29ECC18900297701 /* Fonts */,
+				2CE4B0AC29ECC18900297701 /* Assets */,
+				2CE4B0B229ECC18900297701 /* Protocols */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CE4B08F29ECC18900297701 /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B09029ECC18900297701 /* Strings.swift */,
+				2CE4B09129ECC18900297701 /* InfoPlist.strings */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		2CE4B09729ECC18900297701 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B09829ECC18900297701 /* Development.xcconfig */,
+				2CE4B09929ECC18900297701 /* Staging.xcconfig */,
+				2CE4B09A29ECC18900297701 /* Production.xcconfig */,
+				2CE4B09B29ECC18900297701 /* Configuration.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		2CE4B09C29ECC18900297701 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B09D29ECC18900297701 /* Quicksand-Bold.ttf */,
+				2CE4B09E29ECC18900297701 /* SFProDisplay-Ultralight.ttf */,
+				2CE4B09F29ECC18900297701 /* SFProDisplay-SemiboldItalic.ttf */,
+				2CE4B0A029ECC18900297701 /* SFProDisplay-Medium.ttf */,
+				2CE4B0A129ECC18900297701 /* SFProDisplay-Black.ttf */,
+				2CE4B0A229ECC18900297701 /* SFProDisplay-Light.ttf */,
+				2CE4B0A329ECC18900297701 /* SFProDisplay-Regular.ttf */,
+				2CE4B0A429ECC18900297701 /* Quicksand-Regular.ttf */,
+				2CE4B0A529ECC18900297701 /* Fonts.swift */,
+				2CE4B0A629ECC18900297701 /* Quicksand-Light.ttf */,
+				2CE4B0A729ECC18900297701 /* SFProDisplay-Bold.ttf */,
+				2CE4B0A829ECC18900297701 /* SF-Pro-Display-HeavyItalic.ttf */,
+				2CE4B0A929ECC18900297701 /* SFProDisplay-Semibold.ttf */,
+				2CE4B0AA29ECC18900297701 /* SFProDisplay-Heavy.ttf */,
+				2CE4B0AB29ECC18900297701 /* SFProDisplay-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2CE4B0AC29ECC18900297701 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0AD29ECC18900297701 /* Assets.swift */,
+				2CE4B0AE29ECC18900297701 /* Colors.xcassets */,
+				2C5BA77E29EA097900B5B331 /* Assets.xcassets */,
+				2CE4B0AF29ECC18900297701 /* Notification.mp3 */,
+				2CE4B0B129ECC18900297701 /* Ding.mp3 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2CE4B0B229ECC18900297701 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0B329ECC18900297701 /* ImagePickerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2CE4B0B429ECC18900297701 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0B529ECC18900297701 /* UserDefaultManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2CE4B0B829ECC18900297701 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0B929ECC18900297701 /* Moya+Extension.swift */,
+				2CE4B0BA29ECC18900297701 /* UiColor+Extension.swift */,
+				2CE4B0BB29ECC18900297701 /* IBInspectables.swift */,
+				2CE4B0BC29ECC18900297701 /* String + Extensions.swift */,
+				2CE4B0BD29ECC18900297701 /* UIViewController+Extension.swift */,
+				2CE4B0BE29ECC18900297701 /* UICollectionView + Extension.swift */,
+				2CE4B0BF29ECC18900297701 /* UIScene + Extensions.swift */,
+				2CE4B0C029ECC18900297701 /* UIDate+Extension.swift */,
+				2CE4B0C129ECC18900297701 /* ActInd.swift */,
+				2CE4B0C229ECC18900297701 /* UIViewExtensions.swift */,
+				2CE4B0C329ECC18900297701 /* UIImageView+Extnsion.swift */,
+				2CE4B0C429ECC18900297701 /* Fonts+Extension.swift */,
+				2CE4B0C529ECC18900297701 /* UITableView + Extension.swift */,
+				2CE4B0C629ECC18900297701 /* UIApplication.swift */,
+				2CE4B0C729ECC18900297701 /* Double+Extensions .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CE4B0C829ECC18900297701 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0C929ECC18900297701 /* BadgedButtonItem.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2CE4B0CA29ECC18900297701 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B0CB29ECC18900297701 /* AudioPlayer.swift */,
+				2C8D711D29EF9D2B00F7CE5B /* CLLocationService.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2CE4B10829ECD6E800297701 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B10929ECD6F600297701 /* GetCurrentWeatherModel.swift */,
+				2CE4B10B29ECDEED00297701 /* GetForecastModel.swift */,
+				2CE4B10D29ECE97200297701 /* GetQueryResultsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CE4B10F29ECF08900297701 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C90DD022A12D846001B8285 /* MapView */,
+				2C62EC5A29EDD2E7006B5ACC /* View */,
+				2CE4B11A29ECF0DF00297701 /* SearchVC.storyboard */,
+				2CE4B11229ECF0AD00297701 /* SearchVC.swift */,
+				2CE4B11429ECF0C500297701 /* SearchConfig.swift */,
+				2CE4B11629ECF0CB00297701 /* SearchPresenter.swift */,
+				2CE4B11829ECF0D100297701 /* SearchRouter.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		A3DAD7C9FE4FE6060A18EBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				057E92142F6D8319D55A4852 /* Pods_Transflo_Task.framework */,
+				B2CB7E05B9DD56F08E8222D2 /* Pods_Transflo_Task_Transflo_TaskUITests.framework */,
+				A6743472E9DBD5D7F43908E6 /* Pods_Transflo_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +659,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5BA79C29EA097900B5B331 /* Build configuration list for PBXNativeTarget "Transflo-Task" */;
 			buildPhases = (
+				E399EFE8084FA4D369E455B1 /* [CP] Check Pods Manifest.lock */,
 				2C5BA76B29EA097600B5B331 /* Sources */,
 				2C5BA76C29EA097600B5B331 /* Frameworks */,
 				2C5BA76D29EA097600B5B331 /* Resources */,
+				A3363C8EE72110F1A0CF2A3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +678,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5BA79F29EA097900B5B331 /* Build configuration list for PBXNativeTarget "Transflo-TaskTests" */;
 			buildPhases = (
+				4AE1734634E0734C7418380D /* [CP] Check Pods Manifest.lock */,
 				2C5BA78429EA097900B5B331 /* Sources */,
 				2C5BA78529EA097900B5B331 /* Frameworks */,
 				2C5BA78629EA097900B5B331 /* Resources */,
@@ -172,9 +697,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5BA7A229EA097900B5B331 /* Build configuration list for PBXNativeTarget "Transflo-TaskUITests" */;
 			buildPhases = (
+				77F6AA549DB96170CAF9F27C /* [CP] Check Pods Manifest.lock */,
 				2C5BA78E29EA097900B5B331 /* Sources */,
 				2C5BA78F29EA097900B5B331 /* Frameworks */,
 				2C5BA79029EA097900B5B331 /* Resources */,
+				014D68E7A32D8C486A417480 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +743,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 2C5BA76629EA097600B5B331;
 			productRefGroup = 2C5BA77029EA097600B5B331 /* Products */;
@@ -234,9 +762,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE4B08029ECBD8F00297701 /* DashboardVC.storyboard in Resources */,
+				2CE4B0E829ECC18900297701 /* SFProDisplay-Semibold.ttf in Resources */,
+				2CE4B0DF29ECC18900297701 /* SFProDisplay-Medium.ttf in Resources */,
+				2CE4B0D529ECC18900297701 /* InfoPlist.strings in Resources */,
+				2CE4B0E529ECC18900297701 /* Quicksand-Light.ttf in Resources */,
 				2C5BA78229EA097900B5B331 /* LaunchScreen.storyboard in Resources */,
+				2CE4B0E229ECC18900297701 /* SFProDisplay-Regular.ttf in Resources */,
+				2CE4B0D929ECC18900297701 /* Staging.xcconfig in Resources */,
+				2CE4B0DD29ECC18900297701 /* SFProDisplay-Ultralight.ttf in Resources */,
+				2CE4B0ED29ECC18900297701 /* Notification.mp3 in Resources */,
+				2CE4B0DA29ECC18900297701 /* Production.xcconfig in Resources */,
+				2CE4B0EF29ECC18900297701 /* Ding.mp3 in Resources */,
+				2CE4B11B29ECF0DF00297701 /* SearchVC.storyboard in Resources */,
+				2CE4B0D829ECC18900297701 /* Development.xcconfig in Resources */,
+				2CE4B0DE29ECC18900297701 /* SFProDisplay-SemiboldItalic.ttf in Resources */,
 				2C5BA77F29EA097900B5B331 /* Assets.xcassets in Resources */,
+				2C5CFCFC29EC37CE00D0CDC9 /* CurrentWeatherVC.storyboard in Resources */,
+				2CE4B0DC29ECC18900297701 /* Quicksand-Bold.ttf in Resources */,
+				2CE4B0E029ECC18900297701 /* SFProDisplay-Black.ttf in Resources */,
+				2CE4B0EC29ECC18900297701 /* Colors.xcassets in Resources */,
+				2CE4B0E729ECC18900297701 /* SF-Pro-Display-HeavyItalic.ttf in Resources */,
+				2C6413EA29F72ADD00708636 /* HistoryVC.storyboard in Resources */,
+				2CE4B0EA29ECC18900297701 /* SFProDisplay-Thin.ttf in Resources */,
+				2C6413DF29F3570600708636 /* ForecastCell.xib in Resources */,
+				2C62EC6329EDD36D006B5ACC /* CityCell.xib in Resources */,
+				2CE4B0E129ECC18900297701 /* SFProDisplay-Light.ttf in Resources */,
+				2CE4B0E929ECC18900297701 /* SFProDisplay-Heavy.ttf in Resources */,
 				2C5BA77A29EA097600B5B331 /* Main.storyboard in Resources */,
+				2CE4B0E629ECC18900297701 /* SFProDisplay-Bold.ttf in Resources */,
+				2C8D712029EFB62300F7CE5B /* ForecastVC.storyboard in Resources */,
+				2CE4B0E329ECC18900297701 /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +812,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014D68E7A32D8C486A417480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task-Transflo-TaskUITests/Pods-Transflo-Task-Transflo-TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task-Transflo-TaskUITests/Pods-Transflo-Task-Transflo-TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task-Transflo-TaskUITests/Pods-Transflo-Task-Transflo-TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE1734634E0734C7418380D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transflo-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F6AA549DB96170CAF9F27C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transflo-Task-Transflo-TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3363C8EE72110F1A0CF2A3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task/Pods-Transflo-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task/Pods-Transflo-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transflo-Task/Pods-Transflo-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E399EFE8084FA4D369E455B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transflo-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C5BA76B29EA097600B5B331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE4B0F829ECC18900297701 /* UIViewController+Extension.swift in Sources */,
+				2CE4B10229ECC18900297701 /* Double+Extensions .swift in Sources */,
+				2CE4B0F129ECC18900297701 /* UserDefaultManager.swift in Sources */,
+				2C5CFCF329EC2E7A00D0CDC9 /* ForecastConfig.swift in Sources */,
+				2C6413DE29F3570600708636 /* ForecastCell.swift in Sources */,
+				2C5CFCEB29EC2E0A00D0CDC9 /* CurrentWeatherConfig.swift in Sources */,
+				2CE4B0FD29ECC18900297701 /* UIViewExtensions.swift in Sources */,
+				2CE4B0E429ECC18900297701 /* Fonts.swift in Sources */,
+				2C6413E429F726C900708636 /* HistoryConfig.swift in Sources */,
+				2CE4B10329ECC18900297701 /* BadgedButtonItem.swift in Sources */,
+				2C5CFD5E29EC405600D0CDC9 /* WeatherEndPoint.swift in Sources */,
+				2CE4B10A29ECD6F600297701 /* GetCurrentWeatherModel.swift in Sources */,
+				2C5CFCF529EC2E8200D0CDC9 /* ForecastPresenter.swift in Sources */,
 				2C5BA77729EA097600B5B331 /* ViewController.swift in Sources */,
+				2CE4B11929ECF0D100297701 /* SearchRouter.swift in Sources */,
+				2C90DD062A12DCB2001B8285 /* MapViewConfig.swift in Sources */,
+				2CE4B10429ECC18900297701 /* AudioPlayer.swift in Sources */,
+				2C62EC6229EDD36D006B5ACC /* CityCell.swift in Sources */,
+				2C5CFCE929EC2DFC00D0CDC9 /* CurrentWeatherVC.swift in Sources */,
+				2CE4B11729ECF0CB00297701 /* SearchPresenter.swift in Sources */,
+				2CE4B0F229ECC18900297701 /* RoundedView.swift in Sources */,
+				2CE4B10C29ECDEED00297701 /* GetForecastModel.swift in Sources */,
+				2CE4B0F029ECC18900297701 /* ImagePickerProtocol.swift in Sources */,
+				2C5BA7AE29EA11B600B5B331 /* DashBoardRouter.swift in Sources */,
+				2CE4B0F529ECC18900297701 /* UiColor+Extension.swift in Sources */,
+				2C90DD102A12E7DB001B8285 /* SelectCityRouter.swift in Sources */,
 				2C5BA77D29EA097600B5B331 /* Transflo_Task.xcdatamodeld in Sources */,
+				2CE4B0F429ECC18900297701 /* Moya+Extension.swift in Sources */,
+				2CE4B10029ECC18900297701 /* UITableView + Extension.swift in Sources */,
+				2CE4B10129ECC18900297701 /* UIApplication.swift in Sources */,
+				2C90DD0E2A12E7D4001B8285 /* SelectCityPresenter.swift in Sources */,
+				2C5CFCF729EC2E8A00D0CDC9 /* ForecastRouter.swift in Sources */,
+				2CE4B0D429ECC18900297701 /* Strings.swift in Sources */,
+				2CE4B0DB29ECC18900297701 /* Configuration.swift in Sources */,
+				2C5CFCEF29EC2E2D00D0CDC9 /* CurrentWeatherRouter.swift in Sources */,
+				2CE4B11329ECF0AD00297701 /* SearchVC.swift in Sources */,
+				2CE4B0CE29ECC18900297701 /* DataController.swift in Sources */,
+				2CE4B11529ECF0C500297701 /* SearchConfig.swift in Sources */,
+				2C6413E629F726D000708636 /* HistoryPresenter.swift in Sources */,
+				2C90DD0C2A12E7C8001B8285 /* SelectCityConfig.swift in Sources */,
+				2C5CFCED29EC2E2200D0CDC9 /* CurrentWeatherPresenter.swift in Sources */,
+				2CE4B0F929ECC18900297701 /* UICollectionView + Extension.swift in Sources */,
+				2CE4B10E29ECE97200297701 /* GetQueryResultsModel.swift in Sources */,
+				2C90DD0A2A12DCD0001B8285 /* MapViewRouter.swift in Sources */,
+				2C5BA7A829EA118E00B5B331 /* DashBoardVC.swift in Sources */,
+				2C5CFCF129EC2E3900D0CDC9 /* ForecastVC.swift in Sources */,
+				2CE4B0FC29ECC18900297701 /* ActInd.swift in Sources */,
+				2CE4B08329ECC12500297701 /* ApiWeatherGateway.swift in Sources */,
+				2CE4B0CF29ECC18900297701 /* Constants.swift in Sources */,
+				2C90DD042A12D85C001B8285 /* MapView.swift in Sources */,
+				2C5BA7AA29EA119C00B5B331 /* DashBoardPresenter.swift in Sources */,
+				2CE4B0F329ECC18900297701 /* BaseProtocols.swift in Sources */,
+				2CE4B0FA29ECC18900297701 /* UIScene + Extensions.swift in Sources */,
 				2C5BA77329EA097600B5B331 /* AppDelegate.swift in Sources */,
+				2C6413E229F7248C00708636 /* HistoryVC.swift in Sources */,
+				2C6413E829F726D600708636 /* HistoryRouter.swift in Sources */,
+				2CE4B0FE29ECC18900297701 /* UIImageView+Extnsion.swift in Sources */,
 				2C5BA77529EA097600B5B331 /* SceneDelegate.swift in Sources */,
+				2C62EC5C29EDD301006B5ACC /* SelectCityVC.swift in Sources */,
+				2CE4B0FB29ECC18900297701 /* UIDate+Extension.swift in Sources */,
+				2C5BA7AC29EA11AC00B5B331 /* DashBoardConfig.swift in Sources */,
+				2C90DD082A12DCC1001B8285 /* MapViewPresenter.swift in Sources */,
+				2CE4B0EB29ECC18900297701 /* Assets.swift in Sources */,
+				2CE4B0F629ECC18900297701 /* IBInspectables.swift in Sources */,
+				2CE4B0FF29ECC18900297701 /* Fonts+Extension.swift in Sources */,
+				2C8D711E29EF9D2B00F7CE5B /* CLLocationService.swift in Sources */,
+				2CE4B0F729ECC18900297701 /* String + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +1037,15 @@
 				2C5BA78129EA097900B5B331 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE4B09129ECC18900297701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE4B09229ECC18900297701 /* ar */,
+				2CE4B09529ECC18900297701 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,6 +1167,7 @@
 		};
 		2C5BA79D29EA097900B5B331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B69D681B8FF077DB6FF0DEC /* Pods-Transflo-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,11 +1176,13 @@
 				DEVELOPMENT_TEAM = V7G774AZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Transflo-Task/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Task;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,14 +1190,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.Transflo.Task.Transflo-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C5BA79E29EA097900B5B331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F244BA76CEC66D727FC45049 /* Pods-Transflo-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,11 +1210,13 @@
 				DEVELOPMENT_TEAM = V7G774AZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Transflo-Task/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Task;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,14 +1224,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.Transflo.Task.Transflo-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		2C5BA7A029EA097900B5B331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429777ABAAC7DD95ADB32971 /* Pods-Transflo-TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +1256,7 @@
 		};
 		2C5BA7A129EA097900B5B331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790E91F3F72A5F32D074B926 /* Pods-Transflo-TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +1277,7 @@
 		};
 		2C5BA7A329EA097900B5B331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D02C9E9C1E008F5B25B7290 /* Pods-Transflo-Task-Transflo-TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +1296,7 @@
 		};
 		2C5BA7A429EA097900B5B331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27CD6433CB2CB47DCFF7F66 /* Pods-Transflo-Task-Transflo-TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

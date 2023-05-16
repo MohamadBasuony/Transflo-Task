@@ -1,0 +1,25 @@
+//
+//  Staging.xcconfig
+//  SellerApp
+//
+//  Created by Mohamad Basuony on 10/11/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:/api.stg.omniorder.com.au/api/v1
+
+MSALScopes = https:/omniorderb2c.onmicrosoft.com/bc403961-cbd1-4554-8186-bbb3743ce090/access_as_user
+
+MSALAuthority = omniorderb2c.b2clogin.com
+
+MSALSignInPolicy = B2C_1A_SIGNUP_SIGNIN_MARKETPLACE
+
+MSALSignUpPolicy = B2C_1A_signup_MARKETPLACE
+
+ClientID = da6b39e5-2756-4bc0-9fd6-e51dc996119e
+
+ChatURL = https:$(SIMPLE_SLASH)/api.stg.omniorder.com.au/chat
+
+NotificationURL = https:$(SIMPLE_SLASH)/api.stg.omniorder.com.au/notifications

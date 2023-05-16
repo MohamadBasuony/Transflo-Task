@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  BeutiCustomer
+
+  Created by Michele on 10/8/19.
+  Copyright © 2019 Michelle. All rights reserved.
+*/
+"CFBundleName" = "OmniOrder MarketPlace";
+
+"NSLocationAlwaysUsageDescription" = "من أجل تزويدك بكل المعلومات. المتعلقة بالمراكز القريبة.";
+
+"NSLocationWhenInUseUsageDescription" = "من أجل تزويدك بكل المعلومات. المتعلقة بالمراكز القريبة.";
+
+"NSCameraUsageDescription" = "سيشارك فقط الصورة التي تريد أن تكون صورة ملفك الشخصي الجديدة.";
+
+"NSPhotoLibraryUsageDescription" = "من أجل اختيار صورة";
+
+"NSPhotoLibraryAddUsageDescription" = "من أجل اختيار صورة";

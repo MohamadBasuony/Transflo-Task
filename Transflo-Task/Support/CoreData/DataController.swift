@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 class DataController {
-    static var shared = DataController(modelName: "SellerApp")
+    static var shared = DataController(modelName: "Transflo_Task")
     let persistentContainer:NSPersistentContainer
     
     var viewContext:NSManagedObjectContext {

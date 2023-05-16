@@ -1,0 +1,29 @@
+//
+//  Production.xcconfig
+//  SellerApp
+//
+//  Created by Mohamad Basuony on 10/11/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SIMPLE_SLASH=/
+
+BASE_URL = https:/api.omniorder.com.au/api/v1
+
+MSALScopes = https:$(SIMPLE_SLASH)/omniorderprod.onmicrosoft.com/OmniOrderAPI/access_as_user
+
+MSALAuthority = omniorderprod.b2clogin.com
+
+MSALTenantName = omniorderprod.onmicrosoft.com
+
+MSALSignInPolicy = B2C_1A_SIGNUP_SIGNIN_MARKETPLACE_PRD
+
+MSALSignUpPolicy = B2C_1A_signup_MARKETPLACE_PRD
+
+ClientID = 32b7d6ed-3efe-42c0-98ad-df09b18b5622
+
+ChatURL = https:$(SIMPLE_SLASH)/api.stg.omniorder.com.au/chat
+
+NotificationURL = https:$(SIMPLE_SLASH)/api.stg.omniorder.com.au/notifications

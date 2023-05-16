@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  BeutiCustomer
+
+  Created by Michele on 10/8/19.
+  Copyright © 2019 Michelle. All rights reserved.
+*/
+"CFBundleName" = "Transflo Task";
+
+"NSLocationAlwaysUsageDescription" = "In order to provide you with all info. related to nearby centers.";
+
+"NSLocationWhenInUseUsageDescription" = "In order to provide you with all info. related to nearby centers.";
+
+"NSCameraUsageDescription" = "will share only Photo you want it to be your new profile picture.";
+
+"NSPhotoLibraryUsageDescription" = "In order to pick picture";
+
+"NSPhotoLibraryAddUsageDescription" = "In order to pick picture";
